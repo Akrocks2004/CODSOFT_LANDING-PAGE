@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+}
+
+.Cart {
+    background-color: rgb(233, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.5s;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.Cart:hover {
+    background-color: white;
+}
+
+.Landing-Page {
+    font-family: Okra, Helvetica;
+    display: inline;
+    padding-right: 30px;
+    color: rgb(233, 65, 65);
+   cursor: pointer;
+}
+
+.address {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding: 30px;
+    color: white;
+}
+
+.Contact-Us {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+    padding-right: 70px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.Contact-Us:hover {
+    color: red;
+}
+
+.tab {
+    table-layout: auto;
+    background-color: black;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 400px;
+}
+
+.img-container img {
+    width: 800px;
+    height: 400px;
+}
+
+.paragraph {
+    display: block;
+    color: rgb(174, 164, 164);
+    font-family: "Pathway Extreme", sans-serif;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.search-bar-container {
+    position: absolute;
+    left: 120px;
+    display: inline-block;
+    margin-top: 365px;
+}
+
+.search-bar-container input {
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.search-bar-container button {
+    position: relative;
+    margin-left: 25px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(233, 65, 65);
+    height: 40px;
+    width: auto;
+    display: inline;
+    border-radius: 7px;
+}
+
+.heading {
+    color: white;
+}
+
+.feedback {
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    height: 110px;
+    width: 30px;
+    white-space: nowrap;
+}
+
+.feedback span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    transform-origin: center;
+}
+
+.home-page {
+           
+           display: block; 
+           background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border: none;
+            height: 50px;
+            width: 200px;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.5s;
+            margin-left: 720px;
+            border-radius: 5px;
+            margin-top: 40px;
+            border: 1px solid rgb(154, 146, 146);
+        }
+        .home-page:hover {
+            background-color: rgb(98, 92, 92);
+        }
+.anime-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.anime-container h3 {
+    color: white;
+    font-family: "Pathway Extreme", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.anime-images {
+    display: flex;
+    gap: 20px;
+}
+
+.anime-item {
+    text-align: center;
+}
+
+.anime-container img {
+    width: 300px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-right: 100px;
+    cursor: pointer;
+    
+}
+
+.anime-item p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.Contact-Us1 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.Contact-Us1:hover {
+    color: red;
+}
+
+.Contact-Us2 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+    margin-left: 200px;
+    
+}
+
+.Contact-Us2:hover {
+    color: red;
+}
+.custom-hr {
+            width: 1300px; 
+            border: 1px solid rgb(79, 76, 76); 
+            margin: 20px auto; 
+        }
+.Landing-Page1 {
+    font-family: Okra, Helvetica;
+    display: inline;
+    color: rgb(233, 65, 65);
+   cursor: pointer;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+.paragraph3 {
+    display: inline;
+    color: grey;
+    font-family: "Pathway Extreme", sans-serif;
+    margin-left: 940px;
+    margin-top: 40px;
+}
+.paragraph2 {
+    display: inline;
+    color: grey;
+    font-family: "Pathway Extreme", sans-serif;
+    margin-left: 640px;
+    margin-top: 20px;
+}
+.top{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.5s;
+    margin-left: 700px;
+    border-radius: 5px;
+    color: grey;
+
+}
+.top:hover {
+    color: white;
+}
+
+    </style>
+</head>
+
+<header>
+    <div>
+        <table class="tab">
+            <tr>
+                <h1 class="Landing-Page">Landing Page</h1>
+            </tr>
+            <tr>
+                
+                <div class="Contact-Us">Up Comming</div>
+                <div class="Contact-Us">On Going</div>
+                <div class="Contact-Us">Shedule</div>
+                <div class="Contact-Us">Contact Us</div>
+                <button class="Cart">LOGIN</button>
+            </tr>
+        </table>
+    </div>
+</header>
+
+<body>
+  <button class="feedback"><span>FEEDBACK</span></button>
+    <div class="img-container">
+        <img src="img.jpg" alt="">
+        <div class="search-bar-container">
+            <input type="text" placeholder="Search..">
+            <button>Search</button>
+        </div>
+    </div>
+    <button class="home-page">Enter Home page</button>
+    <div class="paragraph">
+        <h3 class="heading">
+            WATCH ANIME ONLINE
+        </h3>
+        <p>
+            This website is a free streaming anime website that allows you to watch anime online in English subbed and dubbed.<br>
+            Join us and watch anime online for free with ease. Easy access and no registration is required. Our content is updated<br>
+            daily with fast streaming servers and great features that help you easily track and watch your favorite anime. We are<br>
+            confident AnimeSuge is the best free anime streaming site in the space that you can't simply miss!
+        </p>
+    </div>
+    <button class="top">Back to top</button>
+    <hr class="custom-hr">
+    
+
+    <div class="anime-container">
+        <h3>Popular Anime</h3>
+        <div class="anime-images">
+            <div class="anime-item">
+                <img src="img2.jpg" alt="Anime 1">
+                <p class="Contact-Us1">ONE PEICE</p>
+            </div>
+            <div class="anime-item">
+              <img src="img 3.jpg" alt="Anime 2">
+              <p class="Contact-Us1">NARUTO</p>
+          </div>
+          <div class="anime-item">
+            <img src="img4.jpg" alt="Anime 2">
+            <p class="Contact-Us1">BLEACH</p>
+        </div>
+        </div>
+    </div>
+</body>
+<br>
+<footer>
+    <hr class="custom-hr"> <div>
+                <div class="Contact-Us2"> A-Z List</div>
+                <div class="Contact-Us">Recently Added</div>
+                <div class="Contact-Us">upcoming</div>
+                <div class="Contact-Us">Most Watched</div>
+                <div class="Contact-Us">Request</div>
+                <div class="Contact-Us">Contact</div>
+            </div>
+                <h1 class="Landing-Page1">Landing Page</h1>
+                <p class="paragraph3">Made for anime users!</p>
+                <p class="paragraph2">Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</p>
+    
+</footer>
+
+</html>
